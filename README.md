@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 SENSAI
 
-## Getting Started
+A full-stack intelligent career guidance web app that leverages **Gemini AI** to provide real-time career insights, resume feedback, and personalized job suggestions. Built with **Next.js**, **Tailwind CSS**, **Prisma**, and **shadcn/ui** for a fast, modern, and accessible user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🤖 **AI-Powered Career Advice**: Get personalized insights and career tips using Gemini AI.
+- 📄 **Smart Resume Review**: Upload your resume and receive feedback and suggestions powered by AI.
+- 🔍 **Job Role Matching**: Automatically match user skills and interests with relevant roles.
+- 💬 **Interactive Chatbot**: Real-time conversation interface with Gemini for career guidance.
+- 🗃️ **User Profiles & History**: Authenticated user dashboard with saved chats and feedback.
+- 🌙 **Dark Mode Support**: Fully responsive UI with dark/light theme toggle.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+| Tech        | Description                              |
+|-------------|------------------------------------------|
+| **Next.js** | React framework for SSR and routing      |
+| **Tailwind**| Utility-first CSS framework              |
+| **Gemini AI**| Google’s generative AI for conversation |
+| **Prisma**  | ORM for PostgreSQL/SQLite                |
+| **shadcn/ui**| Accessible, modern UI components        |
+| **NextAuth**| Authentication and session management    |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
